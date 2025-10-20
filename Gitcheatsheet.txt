@@ -2,11 +2,16 @@
 git config --global user.name=""
 git config --global user.password=""
 
+#to see the version 
+git-v
+
 #to get the status 
 git status
 
 #to get logs
 git log
+
+#git remote-v
 
 #to shorten the commit Id
 git log --oneline
@@ -42,6 +47,7 @@ git diff
 
 #to check diff between tracked file and commit 
 git diff staged
+
 
 #after commit
 git diff commitId1..commitId2
