@@ -3,7 +3,7 @@ git config --global user.name=""
 git config --global user.password=""
 
 #to see the version 
-git-v
+git -v
 
 #to get the status 
 git status
@@ -11,7 +11,17 @@ git status
 #to get logs
 git log
 
-#git remote-v
+#to clear
+clear
+
+#to exit command prompt
+exit
+
+#do changes
+insert i
+
+#give the list of remote urls
+git remote -v
 
 #to shorten the commit Id
 git log --oneline
